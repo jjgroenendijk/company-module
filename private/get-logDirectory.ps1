@@ -1,4 +1,4 @@
-function get-logDirectoryLocation {
+function get-logDirectory {
 
     try {
 
@@ -13,6 +13,6 @@ function get-logDirectoryLocation {
         return $logDirectory
     }
 
-    catch { throw "Error in get-logDirectoryLocation: $_" }
+    catch { throw "Error in get-logDirectory: $_" }
 
 }
